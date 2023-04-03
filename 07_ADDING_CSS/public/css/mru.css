@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+  }
+  .Container{
+    display: inline-block;
+    padding: 2em;
+    margin-top: 2em;
+    text-align: center;
+    z-index: 1;
+  }
+  .Ctext{
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    border-right: 5px solid rgb(78, 77, 77);
+    width: 100%;
+    white-space:nowrap;
+    overflow: hidden;
+    animation: typing 3.5s,cursor 0.1s step-end infinite alternate;
+    z-index: 1;
+  }
+  /*cursor blinking*/
+   @keyframes cursor{
+    100%{ border-color: transparent;}
+  }
+  @keyframes typing {
+    from{width: 0;}
+  }
+  
+  body{
+    /* margin-top: 0.4em; */
+    font-family:  sans-serif;
+    background-color: #000000;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  header{
+    z-index: 1;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 3em;
+  }
+  nav ul{
+    text-align: right;
+    margin-top: 0.7em;
+    margin-bottom: 0.5em;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
+  li{
+    display: inline;
+  }
+  .other{
+    text-decoration: none;
+    padding:  0.3em 0.6em;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+  }
+  .other:hover,.other:focus {
+    opacity: 1;
+  }
+  .Home{
+    display: inline-flex;
+    text-decoration: none;
+    padding:  0.3em 0.8em;
+    color: rgb(255, 255, 255);
+    border-radius: 1em;
+    font-weight: 550;
+  }
+  .Home:hover,.Home:focus{
+    background-color: rgb(33, 0, 248);
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  span{
+    color: #8eff03;
+    text-transform: uppercase; 
+  }
+
+  .Main{
+    text-align:left;
+    width:100%;
+    display:grid;
+  }
+  h2{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    background-color: #2360a5;
+    padding: .4em ;
+    border-radius: 1em;
+    margin-bottom: 1em ;
+    margin-left: 1em;
+    margin-top: 1em;
+    color: #fafafa;
+    /* float: left; */
+    margin-right: 2em;
+  }
+  .selectorcomb{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-size:large;
+  }
+  .same{
+    background-color:rgb(255, 255, 255);
+    border-radius: .5em;
+    padding: 0.3em;
+    border-width:0;
+    width: 80%;
+    font: inherit;
+    margin-top: 0.4em;
+   }
+   div{
+    margin: .4em;
+  }
+ h4,table{
+    margin-left: 1.4em;
+  }
+  details div{
+    display: grid;
+    float: left;
+    grid-template-columns: 1fr 1fr;
+  }
+  input{
+    background-color:rgb(255, 255, 255);
+    border-radius: .5em;
+    padding: 0.1em ;
+    border-width:0;
+    width: 80%;
+    font: inherit;
+  }
+  .custom-shape-divider-bottom-1678528431 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+  
+  .custom-shape-divider-bottom-1678528431 svg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 101px;
+    transform: rotateY(180deg);
+  }
+  
+  .custom-shape-divider-bottom-1678528431 .shape-fill {
+    fill: #8cff00;
+  }
+  details, h4{
+    z-index: 1;
+  }
+  .buttons{
+    text-align: center;
+    display: block;
+    padding: 2em;
+    margin: 0;
+  }
+  .b1, .b2{
+      width: 100px;
+      height: 30px;
+      border-radius: 0.3em;
+      border-width: 0;
+      background-color: rgb(89,66,233);
+      color: aliceblue;
+      font-size: medium;
+      font-weight:600 ;
+      position:sticky;
+  }
+  .b1{
+    margin-right: 3em;
+  }
+  .b1:hover , .b2:hover{
+    cursor:pointer;
+    background-color: rgb(34, 0, 255);
+  }
+
+  .outsame{
+    background-color:rgb(255, 255, 255);
+    border-radius: .5em;
+    padding: 0.3em;
+    background-color:rgb(255, 255, 255);
+    border-radius: .5em;
+    padding: 0.3em;
+  }
+  table{
+    z-index: 1;
+    border: #0876f4;
+    border-width: 3rem;
+  }
+  td{
+    padding: 0.8rem;
+    font-size:large;
+    font-weight: 500;
+    border-radius: 0.6rem;
+  }
+ 
